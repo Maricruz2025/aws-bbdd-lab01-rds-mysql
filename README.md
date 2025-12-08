@@ -1,153 +1,88 @@
-🟦 Laboratorio 01 – Amazon RDS MySQL
-Crear un servidor de base de datos e interactuar mediante una aplicación
-📘 Descripción General
+<img src="https://capsule-render.vercel.app/api?type=wave&color=0A66C2&height=180&section=header&text=AWS%20Lab%2001%20-%20RDS%20MySQL&fontSize=40&fontColor=ffffff&fontAlignY=35&animation=fadeIn" />
+<div align="center">
+🌐 Laboratorio AWS – Base de Datos MySQL en Amazon RDS
+🛡️ Insignias / Badges
 
-Este laboratorio tiene como objetivo aprender a crear una instancia de base de datos administrada en Amazon RDS utilizando MySQL y luego conectarse desde una aplicación cliente.
-Se desarrolla dentro del contexto del bootcamp Generation AWS Cloud Practitioner.
 
-A lo largo del laboratorio, se pondrán en práctica conceptos como:
 
-Configuración inicial de RDS
 
-Creación de un endpoint de conexión
 
-Parámetros de seguridad
 
-Conexión a una base de datos desde una aplicación
 
-Inserción y consulta de datos
 
-🎯 Objetivos del Laboratorio
-Objetivo	Descripción
-🛠️ Crear un RDS MySQL	Implementar una instancia de base de datos administrada
-🔐 Configurar seguridad	Ajustar grupos de seguridad y accesos requeridos
-🔗 Conectar a la aplicación	Probar la conexión usando el endpoint del RDS
-🗂️ Realizar consultas	Crear tablas, insertar datos y ejecutar consultas SQL
-📸 Documentar el proceso	Capturar evidencias profesionales sin violar propiedad intelectual
-🧰 Tecnologías Utilizadas
 
-AWS RDS (MySQL)
 
-AWS IAM
+</div>
+🎯 1. Objetivos del Laboratorio
 
-AWS Console
+🛠️ Crear una instancia Amazon RDS MySQL
 
-MySQL Client / Workbench / CloudShell
+🏗️ Configurar subredes, seguridad y conectividad
 
-GitHub Codespaces
+🌐 Permitir conexiones desde un servidor web
 
-Markdown
+💾 Interactuar con la base de datos mediante una aplicación
 
-📁 Estructura del Repositorio
-📦 lab01-rds-mysql
- ┣ 📂 screenshots
- ┣ 📂 sql
- ┣ 📜 README.md
- ┗ 📜 connection-test.txt
+📸 Documentar todo el proceso sin violar copyright
 
-📸 Normas para las Capturas (IMPORTANTE)
+🧰 2. Tecnologías Utilizadas
 
-Para cumplir con las políticas de AWS:
+☁️ Amazon RDS (MySQL)
 
-✔ Puedes capturar solo tu trabajo, sin logos privados ni documentos internos.
-✔ Si aparece el logo de AWS de la consola, no hay problema, es permitido.
-✔ Tapa o recorta información sensible:
+🔐 AWS IAM
 
-ID de cuenta
+🚀 AWS Console
 
-Números de tarjeta
+🐬 MySQL Client / Workbench
 
-Usuario root
+💻 GitHub Codespaces
 
-Datos personales
+✍️ Markdown
 
-❌ No captures:
+📁 3. Estructura del Repositorio
+📦 aws-bbdd-lab01-rds-mysql
+ ┣ 📂 screenshots           # 📸 Capturas del proceso
+ ┣ 📂 sql                   # 🗄️ Scripts SQL utilizados
+ ┣ 📜 README.md            # 📘 Documentación principal
+ ┗ 📜 connection-test.txt  # 🔍 Resultado de pruebas de conexión
 
-Textos completos oficiales explicativos
+📸 4. Buenas Prácticas para Capturas de Pantalla
+✔ Permitido
 
-Diagramas o imágenes propietarias de AWS Training
+Tus configuraciones personales del laboratorio
 
-Material que diga “Copyright AWS”
+Tus endpoints, nombres y recursos
 
-📝 Paso a Paso del Laboratorio
+Configuraciones realizadas por ti
 
-(Aquí irás pegando cada actividad con captura y explicación. Yo te ayudaré a formatearlo cuando lo avances.)
+❌ No permitido
 
-©️ Autor
+Instrucciones originales de AWS
 
-Maricruz Ivanka – Estudiante Generation AWS | Santiago de Chile
+Textos del laboratorio oficial
 
-⭐ ¿Quieres que lo haga aún más increíble?
+Elementos que contengan copyright directo
 
-Puedo añadir:
+📝 5. Desarrollo del Laboratorio
 
-Badges (insignias) de GitHub
+Aquí se documentará cada paso realizado:
 
-Tabla de contenidos automática
+🔧 Crear grupo de seguridad
 
-Un diagrama hecho por ti (para no violar copyright)
+🗺️ Crear grupo de subredes
 
-Secciones animadas
+📦 Lanzar instancia RDS MySQL Multi-AZ
 
-Un disclaimer legal profesional
+🔗 Obtener endpoint
 
-Si quieres, lo agrego.
+🐬 Conexión desde el cliente MySQL
 
-Dime ahora cuál parte del laboratorio ya hiciste y la transformamos al estilo profesional del README.
+🗄️ Insertar, consultar y mantener datos
 
-Dijiste:
-si solo para pegar el readme no me envies nada que no tenga que ir al readme
-ChatGPT dijo:
+📸 Añadir evidencias y conclusiones
 
-Perfecto.
-Aquí tienes solo el contenido final del README, listo para copiar y pegar tal cual en GitHub.
+👩‍💻 6. Autor
 
-🟦 Laboratorio 01 – Amazon RDS MySQL
-Crear un servidor de base de datos e interactuar mediante una aplicación
-📘 Descripción General
-
-Este laboratorio tiene como objetivo crear una instancia de base de datos administrada en Amazon RDS (MySQL) y conectarse a ella mediante una aplicación cliente. Forma parte de mi aprendizaje en el programa Generation AWS Cloud Practitioner.
-
-🎯 Objetivos del Laboratorio
-Objetivo	Descripción
-🛠️ Crear un RDS MySQL	Implementar una instancia de base de datos administrada
-🔐 Configurar seguridad	Ajustar grupos de seguridad y accesos necesarios
-🔗 Conectar a la aplicación	Probar la conexión usando el endpoint del RDS
-🗂️ Ejecutar consultas SQL	Crear tablas, insertar datos y consultar información
-📸 Documentar el proceso	Registrar el avance sin violar propiedad intelectual
-🧰 Tecnologías Utilizadas
-
-AWS RDS (MySQL)
-
-AWS IAM
-
-AWS Console
-
-MySQL Client / MySQL Workbench
-
-GitHub Codespaces
-
-Markdown
-
-📁 Estructura del Repositorio
-📦 lab01-rds-mysql
- ┣ 📂 screenshots
- ┣ 📂 sql
- ┣ 📜 README.md
- ┗ 📜 connection-test.txt
-
-📸 Normas para las Capturas
-
-✔ Capturar solo el proceso personal de creación y configuración
-✔ Tapar información sensible (ID de cuenta, datos personales)
-✔ Es válido mostrar la consola de AWS
-❌ No capturar material oficial de AWS Training
-❌ No incluir imágenes protegidas por copyright
-
-📝 Paso a Paso del Laboratorio
-
-Aquí documento cada paso realizado en el laboratorio, incluyendo comandos, configuraciones y capturas de pantalla propias.
-
-©️ Autor
-
-Maricruz Ivanka – Estudiante Generation AWS | Santiago de Chile
+Maricruz Quispe Huanto
+Estudiante – Generation Chile - AWS Cloud 7 re/Start
+Repositorio creado con mucha dedicación
