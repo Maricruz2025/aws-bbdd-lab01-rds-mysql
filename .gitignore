@@ -1,5 +1,0 @@
-.env
-*.pem
-*.key
-.vscode/
-.DS_Store

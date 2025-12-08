@@ -1,18 +1,13 @@
-<img src="https://capsule-render.vercel.app/api?type=wave&color=0A66C2&height=180&section=header&text=AWS%20Lab%2001%20-%20RDS%20MySQL&fontSize=40&fontColor=ffffff&fontAlignY=35&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0A66C2&height=130&section=header&text=AWS%20Lab%2001%20-%20RDS%20MySQL&fontSize=45&fontColor=ffffff&fontAlignY=35&animation=fadeIn" />
 <div align="center">
 🌐 Laboratorio AWS – Base de Datos MySQL en Amazon RDS
 🛡️ Insignias / Badges
+<br> <!-- Badges --> <img src="https://img.shields.io/badge/AWS-RDS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/Generation-AWS%20Skills%20for%20Jobs-7A3EDE?style=for-the-badge" /> <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" /> <img src="https://img.shields.io/badge/Cloud-Learning-1E90FF?style=for-the-badge" />
 
-
-
-
-
-
-
-
-
+<br><br>
 
 </div>
+
 🎯 1. Objetivos del Laboratorio
 
 🛠️ Crear una instancia Amazon RDS MySQL
