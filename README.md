@@ -38,7 +38,7 @@
 ## 🏗️ Infraestructura del Laboratorio
 
 <p align="center">
-  <img src="./screenshots/lab01-aws-rds-mysql-infra.png" alt="Diagrama de infraestructura AWS Lab 01" width="80%" />
+  <img src="./screenshots/01lab01-aws-rds-mysql-infra.png" alt="Diagrama de infraestructura AWS Lab 01" width="80%" />
 </p>
 
 *Diagrama de la infraestructura: instancia RDS MySQL, subredes, grupos de seguridad y conectividad con la aplicación.*
